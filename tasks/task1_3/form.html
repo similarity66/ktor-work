@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<form action="https://httpbin.io/dump/request" method="POST">
+    <fieldset>
+        <legend>Personal information</legend>
+    <p>
+    <label for="name">Enter name</label>
+    <input type="text" id="name" name="name">
+    </p>
+    <p>
+    <label for="em">Enter email</label>
+    <input type="email" id="em" name="email">
+    </p>
+    </fieldset>
+
+    <fieldset>
+        <legend>Date of birth</legend>
+    <p>
+    <label for="date">Enter DOB</label>
+    <input type="date" name="date" id="date"/>
+    </p>   
+    </fieldset>
+
+    <fieldset>
+        <legend>Colour picker</legend>
+    <p>
+    <label for="color">Pick colour</label>
+    <input type="color" name="color" id="color"/>
+    </p>
+    </fieldset>
+
+    <fieldset>
+        <legend>Select status</legend>
+        <ul>
+            <li>
+                <label for="student">Student</label>
+                <input type="radio" id="student" name="status" value="student"/>
+            </li>
+            <li>
+                <label for="staff">Staff</label>
+                <input type="radio" id="staff" name="status" value="staff"/>
+            </li>
+        </ul>
+    </fieldset>
+
+    <input type="submit">
+</form>
